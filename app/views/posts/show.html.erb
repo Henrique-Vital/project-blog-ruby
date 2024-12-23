@@ -1,0 +1,10 @@
+<!-- app/views/posts/show.html.erb -->
+<h1><%= @post.title %></h1>
+
+<p><strong>Content:</strong></p>
+<p><%= @post.content %></p>
+
+<p><strong>Published At:</strong> <%= @post.published_at.strftime("%B %d, %Y %H:%M") if @post.published_at %></p>
+
+<%= link_to 'Edit', edit_post_path(@post), class: 'btn btn-warning' %>
+<%= link_to 'Back', posts_path, class: 'btn btn-secondary' %>
