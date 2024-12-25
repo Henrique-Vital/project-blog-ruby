@@ -1,8 +1,10 @@
+/* app/assets/stylesheets/application.css */
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * Any CSS file within this directory, lib/assets/stylesheets, or any plugin's
  * vendor/assets/stylesheets directory can be referenced here using a relative path.
  *
  * You're free to add application-wide styles to this file and they'll appear at the bottom of the
@@ -12,4 +14,13 @@
  *
  *= require_tree .
  *= require_self
+ *= require home
+ *= require posts
  */
+
+ body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}

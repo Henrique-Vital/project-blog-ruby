@@ -1,24 +1,60 @@
-# README
+# Projeto Rails - Gerenciamento de Posts
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este é um projeto Ruby on Rails que fornece uma API RESTful para gerenciar "Posts". Ele inclui funcionalidades para criar, ler, atualizar e deletar posts.
 
-Things you may want to cover:
+## Requisitos
 
-* Ruby version
+- Ruby 2.7.0
+- Rails 2.3.8
+- SQLite3 (ou outro banco de dados de sua escolha)
 
-* System dependencies
+## Configuração
 
-* Configuration
+Para configurar o projeto, siga estes passos:
 
-* Database creation
+1. Clone o repositório:
+   ```bash
+   git clone <url-do-repositorio>
+   cd nome-do-projeto
+   ```
 
-* Database initialization
+2. Instale as dependências:
+   ```bash
+   bundle install
+   ```
 
-* How to run the test suite
+3. Crie e migre o banco de dados:
+   ```bash
+   rake db:create db:migrate
+   ```
 
-* Services (job queues, cache servers, search engines, etc.)
+4. Inicie o servidor Rails:
+   ```bash
+   rails server
+   ```
 
-* Deployment instructions
+Agora você pode acessar a API em `http://localhost:3000`.
 
-* ...
+## Endpoints da API
+
+- `GET /posts` - Retorna todos os posts.
+- `POST /posts` - Cria um novo post.
+- `GET /posts/:id` - Retorna um post específico.
+- `PUT /posts/:id` - Atualiza um post existente.
+- `DELETE /posts/:id` - Deleta um post.
+
+## Testes
+
+Para executar os testes, use:
+
+bash
+rspec
+
+
+## Contribuições
+
+Contribuições são bem-vindas. Por favor, envie um pull request ou abra uma issue para discutir o que você gostaria de mudar.
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)

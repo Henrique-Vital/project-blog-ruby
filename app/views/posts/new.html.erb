@@ -1,9 +1,9 @@
 <!-- app/views/posts/new.html.erb -->
-<h1>New Post</h1>
+<h1 class="posts-title">New Post</h1>
 
-<%= form_with(model: @post, local: true) do |form| %>
+<%= form_with(model: @post, local: true, html: { class: 'posts-form' }) do |form| %>
   <% if @post.errors.any? %>
-    <div id="error_explanation">
+    <div id="error_explanation" class="posts-error">
       <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
 
       <ul>
@@ -15,12 +15,12 @@
   <% end %>
 
   <div class="form-group">
-    <%= form.label :title %>
+    <%= form.label :title, class: 'form-label' %>
     <%= form.text_field :title, class: 'form-control' %>
   </div>
 
   <div class="form-group">
-    <%= form.label :content %>
+    <%= form.label :content, class: 'form-label' %>
     <%= form.text_area :content, class: 'form-control' %>
   </div>
 

@@ -1,0 +1,84 @@
+/* app/assets/stylesheets/posts.css */
+
+/* Estilos para a tabela de posts */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Botões */
+.btn {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+}
+
+
+.posts-title {
+    font-size: 28px;
+    color: #333;
+}
+
+.posts-form {
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.posts-error {
+    color: red;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
