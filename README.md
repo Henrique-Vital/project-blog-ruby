@@ -4,31 +4,32 @@ Este é um projeto Ruby on Rails que fornece uma API RESTful para gerenciar "Pos
 
 ## Requisitos
 
-- Ruby 2.7.0
+- Ruby 1.9.3
 - Rails 2.3.8
-- SQLite3 (ou outro banco de dados de sua escolha)
+- Mysql (ou outro banco de dados de sua escolha)
 
 ## Configuração
 
 Para configurar o projeto, siga estes passos:
 
 1. Clone o repositório:
+
    ```bash
    git clone <url-do-repositorio>
    cd nome-do-projeto
    ```
-
 2. Instale as dependências:
+
    ```bash
    bundle install
    ```
-
 3. Crie e migre o banco de dados:
+
    ```bash
    rake db:create db:migrate
    ```
-
 4. Inicie o servidor Rails:
+
    ```bash
    rails server
    ```
@@ -49,7 +50,6 @@ Para executar os testes, use:
 
 bash
 rspec
-
 
 ## Contribuições
 
