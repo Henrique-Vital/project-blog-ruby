@@ -6,7 +6,7 @@ Este é um projeto Ruby on Rails que fornece uma API RESTful para gerenciar "Pos
 
 - Ruby 1.9.3
 - Rails 2.3.8
-- MYSQL (ou outro banco de dados de sua escolha)
+- Mysql (ou outro banco de dados de sua escolha)
 
 ## Configuração
 
