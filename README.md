@@ -58,3 +58,4 @@ Contribuições são bem-vindas. Por favor, envie um pull request ou abra uma is
 ## Licença
 
 [MIT](https://choosealicense.com/licenses/mit/)
+![Visualização web posts](image.png)
